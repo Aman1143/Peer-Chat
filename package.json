@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-    "build": "npm install --legacy-peer-deps && yarn install --legacy-peer-deps --prefix client && yarn run build --prefix client"
+    "build": "npm install   && yarn install   --prefix client && yarn run build --prefix client"
   },
   "author": "",
   "license": "ISC",
